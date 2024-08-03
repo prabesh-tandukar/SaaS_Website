@@ -1,0 +1,19 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-menu li {
+  margin-left: 15px;
+  list-style: none;
+}
+
+.nav-menu li a {
+  text-decoration: none;
+}
