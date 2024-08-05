@@ -1,8 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
 nav {
   display: flex;
   justify-content: space-between;
   margin-left: 5%;
   margin-right: 5%;
+  margin-top: 10px;
 }
 .nav-menu {
   display: flex;
@@ -16,4 +34,9 @@ nav {
 
 .nav-menu li a {
   text-decoration: none;
+  padding: 10px 20px;
+  font-weight: 600;
+}
+
+.login-btn {
 }
